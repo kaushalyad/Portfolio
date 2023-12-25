@@ -8,7 +8,7 @@ const Education = () => {
           My Education
         </p>
       </div>
-      <div className="mt-20">
+      <div className="my-20">
         <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 mx-56 rounded-lg shadow">
           <WorkContent
             companyName={"Motilal Nehru Institute Of Technology "}

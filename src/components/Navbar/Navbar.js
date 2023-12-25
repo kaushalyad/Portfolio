@@ -9,25 +9,25 @@ import Home from "../Home";
 const Navbar = () => {
   return (
     <>
-      <nav className=" bg-slate-100 h-20 flex items-center justify-between w-[100%]">
+      <nav className=" bg-slate-200 h-20 flex items-center justify-between w-[100%]">
         <div className="flex gap-x-11 items-center ">
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="">Home</NavLink>
+            <NavLink to="" className="focus:text-red-400">Home</NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/education">Education</NavLink>
+            <NavLink to="/education" className="focus:text-red-400">Education</NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/expertise">Expertise</NavLink>
+            <NavLink to="/expertise" className="focus:text-red-400">Expertise</NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/work">Work</NavLink>
+            <NavLink to="/work" className="focus:text-red-400">Work</NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/profile">Profile</NavLink>
+            <NavLink to="/profile" className="focus:text-red-400">Profile</NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/contact" className="focus:text-red-400">Contact</NavLink>
           </div>
         </div>
         <div className="flex items-center">
