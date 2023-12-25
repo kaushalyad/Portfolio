@@ -13,9 +13,28 @@ const Expertise = () => {
           <div>
             <img src="/Portfolio/images/kaushal.jpeg" alt="project-1"></img>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="mt-8">
+            <div  className="my-3">
+              <p className="font-bold text-2xl px-5 text-white comic">
+                Weather Web Application
+              </p>
+            </div>
+            <div>
+              <div className="flex">
+                <div>
+                  <p className="px-5 text-white comic text-xl">
+                    Web Development
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="/Portfolio/logos/downArrow.svg "
+                    alt="down-arrow"
+                    className="w-5"
+                  ></img>
+                </div>
+              </div>
+            </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <p className="text-white">Check it out</p>
             </div>
@@ -25,9 +44,28 @@ const Expertise = () => {
           <div className="-mt-20">
             <img src="/Portfolio/images/kaushal.jpeg" alt="project-2"></img>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="mt-8">
+            <div className="my-3">
+              <p className="font-bold text-2xl px-5 text-white comic">
+                News Bulletin Web Application
+              </p>
+            </div>
+            <div>
+              <div className="flex">
+                <div>
+                  <p className="px-5 text-white comic text-xl">
+                    Web Development
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="/Portfolio/logos/downArrow.svg "
+                    alt="down-arrow"
+                    className="w-5"
+                  ></img>
+                </div>
+              </div>
+            </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <p className="text-white font-mono">Check it out</p>
             </div>
@@ -37,9 +75,28 @@ const Expertise = () => {
           <div>
             <img src="/Portfolio/images/kaushal.jpeg" alt="project-3"></img>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="mt-8">
+            <div className="my-3">
+              <p className="font-bold text-3xl px-5 text-white comic">
+                Personal Portfolio
+              </p>
+            </div>
+            <div>
+              <div className="flex">
+                <div>
+                  <p className="px-5 text-white comic text-xl">
+                    Web Development
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="/Portfolio/logos/downArrow.svg "
+                    alt="down-arrow"
+                    className="w-5"
+                  ></img>
+                </div>
+              </div>{" "}
+            </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <p className="text-white">Check it out</p>
             </div>
@@ -49,9 +106,28 @@ const Expertise = () => {
           <div>
             <img src="/Portfolio/images/kaushal.jpeg" alt="project-4"></img>
           </div>
-          <div>
-            <div></div>
-            <div></div>
+          <div className="mt-8">
+            <div className="my-3">
+              <p className="font-bold text-3xl px-5 text-white comic">
+                Spotify Clone
+              </p>
+            </div>
+            <div>
+              <div className="flex">
+                <div>
+                  <p className="px-5 text-white comic text-xl">
+                    Web Development
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="/Portfolio/logos/downArrow.svg "
+                    alt="down-arrow"
+                    className="w-5"
+                  ></img>
+                </div>
+              </div>{" "}
+            </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <p className="text-white">Check it out</p>
             </div>
