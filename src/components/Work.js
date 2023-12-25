@@ -13,7 +13,7 @@ const Work = () => {
           content={
             "Developed user interface for PMS application using ReactJS, Material UI, and API handling, ensuring a seamless and visually appealing user experience.."
           }
-          time={"From 24-07-2023 To 27-10-2023"}
+          time={"24-07-2023 To 27-10-2023"}
           from={"WFO"}
           require={<Require />}
         />

@@ -8,13 +8,17 @@ const Expertise = () => {
           My Project
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-y-24 gap-x-11 place-items-center my-20 mx-24  ">
-        <div className="bg-slate-500 ">
-          <div>
-            <img src="/Portfolio/images/kaushal.jpeg" alt="project-1"></img>
+      <div className="grid grid-cols-3 gap-y-24 gap-x-4 place-items-center my-20 mx-16  ">
+        <div className=" bg-gray-700 rounded-md pb-20 mt-7 update">
+          <div className="imgParent">
+            <img
+              src="/Portfolio/images/weatherPic.png"
+              alt="project-1"
+              className="imgIncrement incrementOne"
+            ></img>
           </div>
-          <div className="mt-8">
-            <div  className="my-3">
+          <div className="mt-8 slightly slightlyOne">
+            <div className="my-3">
               <p className="font-bold text-2xl px-5 text-white comic">
                 Weather Web Application
               </p>
@@ -36,15 +40,21 @@ const Expertise = () => {
               </div>
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <p className="text-white">Check it out</p>
+              <a href="https://github.com/kaushalyad/weather_using_api">
+                <p className="text-white">Check it out</p>
+              </a>
             </div>
           </div>
         </div>
-        <div className="bg-slate-500">
-          <div className="-mt-20">
-            <img src="/Portfolio/images/kaushal.jpeg" alt="project-2"></img>
+        <div className="bg-gray-700 pt-7 rounded-md pb-20 update">
+          <div className="imgParent">
+            <img
+              src="/Portfolio/images/newsPic.png"
+              alt="project-2"
+              className="imgIncrement incrementTwo"
+            ></img>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 slightly slightlyTwo">
             <div className="my-3">
               <p className="font-bold text-2xl px-5 text-white comic">
                 News Bulletin Web Application
@@ -67,15 +77,22 @@ const Expertise = () => {
               </div>
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <p className="text-white font-mono">Check it out</p>
+              <a href="https://github.com/kaushalyad/news_using_api">
+                {" "}
+                <p className="text-white font-mono">Check it out</p>
+              </a>
             </div>
           </div>
         </div>
-        <div className="bg-slate-500">
-          <div>
-            <img src="/Portfolio/images/kaushal.jpeg" alt="project-3"></img>
+        <div className="bg-gray-700 rounded-md mt-7 pb-20 update">
+          <div className="imgParent">
+            <img
+              src="/Portfolio/images/kaushal.png"
+              alt="project-3"
+              className="imgIncrement incrementThree"
+            ></img>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 slightly slightlyThree">
             <div className="my-3">
               <p className="font-bold text-3xl px-5 text-white comic">
                 Personal Portfolio
@@ -98,15 +115,21 @@ const Expertise = () => {
               </div>{" "}
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <p className="text-white">Check it out</p>
+              <a href="https://kaushalyad.github.io/Portfolio/">
+                <p className="text-white">Check it out</p>
+              </a>
             </div>
           </div>
         </div>
-        <div className="bg-slate-500 col-start-2">
-          <div>
-            <img src="/Portfolio/images/kaushal.jpeg" alt="project-4"></img>
+        <div className="bg-gray-700 col-start-2 rounded-md pb-20  update">
+          <div className="imgParent">
+            <img
+              src="/Portfolio/images/spotifyPic.png"
+              alt="project-4"
+              className="imgIncrement incrementFour"
+            ></img>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 slightly slightlyFour">
             <div className="my-3">
               <p className="font-bold text-3xl px-5 text-white comic">
                 Spotify Clone
@@ -129,7 +152,10 @@ const Expertise = () => {
               </div>{" "}
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <p className="text-white">Check it out</p>
+              <a href="#">
+                {" "}
+                <p className="text-white">Check it out</p>
+              </a>
             </div>
           </div>
         </div>

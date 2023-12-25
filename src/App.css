@@ -143,5 +143,42 @@
 
 .comic {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
 
+.imgParent {
+  width: 100%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+}
+
+.imgIncrement:hover {
+  transform: scale(1.2, 1.2);
+}
+.update{
+  overflow: hidden;
+}
+
+body:has(.incrementOne:hover) .slightlyOne{
+  transition: transform 300ms;
+  transform: translate3d(0, 2px, 0);
+}
+
+body:has(.incrementTwo:hover) .slightlyTwo{
+  transition: transform 300ms;
+  transform: translate3d(0, 2px, 0);
+}
+
+body:has(.incrementThree:hover) .slightlyThree{
+  transition: transform 300ms;
+  transform: translate3d(0, 2px, 0);
+}
+
+body:has(.incrementFour:hover) .slightlyFour{
+  transition: transform 300ms;
+  transform: translate3d(0, 2px, 0);
 }
