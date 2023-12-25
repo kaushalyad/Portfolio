@@ -4,43 +4,58 @@ const Expertise = () => {
   return (
     <div>
       <div>
-        <p className="comic text-white text-center text-7xl font-bold">My Project</p>
+        <p className="comic text-white text-center text-7xl font-bold">
+          My Project
+        </p>
       </div>
-      <div className="grid grid-cols-3 gap-y-24 gap-x-32 place-items-center my-20  ">
-        <div className="bg-red-900">
-          <p>
-            100000000000000000000000000000000000
-            00000000000000000000000000000000000000000000
-            000000000000000000000000000000000000000
-            00000000000000000000000000000000000000
-            00000000000000000000000000000000000000 00000000000000000000000000000
-          </p>
+      <div className="grid grid-cols-3 gap-y-24 gap-x-11 place-items-center my-20 mx-24  ">
+        <div className="bg-slate-500 ">
+          <div>
+            <img src="/Portfolio/images/kaushal.jpeg" alt="project-1"></img>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+            <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
+              <p className="text-white">Check it out</p>
+            </div>
+          </div>
         </div>
-        <div className="bg-red-900">
-          <p>
-            210000000000000000000000 000000000000000000000000000
-            00000000000000000000000000000000000000000
-            0000000000000000000000000000000000000000
-            0000000000000000000000000000000000000000
-            0000000000000000000000000000000000000000 0000000000000
-          </p>
+        <div className="bg-slate-500">
+          <div className="-mt-20">
+            <img src="/Portfolio/images/kaushal.jpeg" alt="project-2"></img>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+            <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
+              <p className="text-white font-mono">Check it out</p>
+            </div>
+          </div>
         </div>
-        <div className="bg-red-900">
-          <p>
-            31000000000000000000000000 0000000000000000000000000000000000000
-            000000000000000000000000000000000000
-            000000000000000000000000000000000000
-            0000000000000000000000000000000000000
-            0000000000000000000000000000000000000 0000000000000000
-          </p>
+        <div className="bg-slate-500">
+          <div>
+            <img src="/Portfolio/images/kaushal.jpeg" alt="project-3"></img>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+            <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
+              <p className="text-white">Check it out</p>
+            </div>
+          </div>
         </div>
-        <div className="bg-red-900 col-start-2">
-          <p>
-            410000000000000000000000000 000000000000000000 000000000000000000
-            00000000000000000000 00000000000000000000 000000000000000000000000
-            00000000000000000000000000 00000000000000000000000000000
-            00000000000000000000000000000000 00000000000
-          </p>
+        <div className="bg-slate-500 col-start-2">
+          <div>
+            <img src="/Portfolio/images/kaushal.jpeg" alt="project-4"></img>
+          </div>
+          <div>
+            <div></div>
+            <div></div>
+            <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
+              <p className="text-white">Check it out</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
