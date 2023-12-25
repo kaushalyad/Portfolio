@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import Expertise from "../Expertise";
 import Education from "../Education";
@@ -8,17 +8,29 @@ import Profile from "../Profile";
 import Home from "../Home";
 const Navbar = () => {
   const [highLightColor, setHighLightColor] = useState([
-    "#fc0388",
+    "#f56942",
     "blue",
     "blue",
     "blue",
     "blue",
     "blue",
   ]);
+  useEffect(() => {
+    const storedColor = window.sessionStorage.getItem("color");
+    if (storedColor) {
+      try {
+        setHighLightColor(JSON.parse(storedColor));
+      } catch (error) {
+        setHighLightColor(["#f56942", "blue", "blue", "blue", "blue", "blue"]);
+      }
+    }
+  }, []);
+
   const highLight = (index) => {
     const arr = ["blue", "blue", "blue", "blue", "blue", "blue"];
-    arr[index] = "#fc0388";
+    arr[index] = "#f56942";
     setHighLightColor(arr);
+    window.sessionStorage.setItem("color", JSON.stringify(arr));
   };
   return (
     <>
@@ -82,7 +94,7 @@ const Navbar = () => {
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
               to="/contact"
-              on={() => {
+              onClick={() => {
                 highLight(5);
               }}
               style={{ color: highLightColor[5] }}
