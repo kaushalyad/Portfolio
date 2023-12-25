@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className=" bg-slate-100 h-20 flex items-center justify-between w-[100%]">
         <div className="flex gap-x-11 items-center ">
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/Portfolio">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink to="/education">Education</NavLink>
@@ -43,7 +43,7 @@ const Navbar = () => {
         </div>
       </nav>
       <Routes>
-        <Route path="/Portfolio" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/education" element={<Education />} />
