@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <div className=" items-center mt-20 ">
       <div>
-        <p className="text-white text-center text-7xl font-bold">
+        <p className="comic text-white text-center text-7xl font-bold">
           My Coding Profiles
         </p>
       </div>

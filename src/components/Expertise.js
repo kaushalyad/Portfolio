@@ -4,7 +4,7 @@ const Expertise = () => {
   return (
     <div>
       <div>
-        <p className="text-white text-center text-7xl font-bold">My Project</p>
+        <p className="comic text-white text-center text-7xl font-bold">My Project</p>
       </div>
       <div className="grid grid-cols-3 gap-y-24 gap-x-32 place-items-center my-20  ">
         <div className="bg-red-900">

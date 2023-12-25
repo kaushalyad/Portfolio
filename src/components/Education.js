@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div>
       <div>
-        <p className="text-white text-center text-7xl font-bold">
+        <p className="comic text-white text-center text-7xl font-bold">
           My Education
         </p>
       </div>

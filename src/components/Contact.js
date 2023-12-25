@@ -3,7 +3,7 @@ const Contact = () => {
   return (
     <div className="text-white text-center mt-10 bg-slate-700">
       <div>
-        <p className="text-5xl text-center font-bold ">
+        <p className="comic text-5xl text-center font-bold ">
           Available for select opportunities
         </p>
       </div>
