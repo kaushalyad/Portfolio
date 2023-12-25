@@ -17,7 +17,7 @@ const Profile = () => {
                 className="my-auto mx-auto"
               >
                 <img
-                  src="/logos/codeforces.svg"
+                  src="Portfolio/logos/codeforces.svg"
                   alt="codeforces"
                   className="w-32 px-8 py-5
                   bg-white rounded-lg"
@@ -31,7 +31,7 @@ const Profile = () => {
             <div>
               <a href="https://www.codechef.com/users/kaushalyad321">
                 <img
-                  src="/logos/codechef.svg"
+                  src="Portfolio/logos/codechef.svg"
                   alt="codechef"
                   className="w-32 px-4 py-3
                   bg-white rounded-lg"
@@ -45,7 +45,7 @@ const Profile = () => {
             <div>
               <a href="https://leetcode.com/kaushalyad321/">
                 <img
-                  src="/logos/leetcode.svg"
+                  src="Portfolio/logos/leetcode.svg"
                   alt="leetcode"
                   className="w-32 px-4 py-3
                   bg-white rounded-lg"
@@ -60,7 +60,7 @@ const Profile = () => {
             <div>
               <a href="https://auth.geeksforgeeks.org/user/kaushalyad321">
                 <img
-                  src="/logos/geeksforgeeks.svg"
+                  src="Portfolio/logos/geeksforgeeks.png"
                   alt="geekforgeeks"
                   className="w-32 px-4 py-3
                   bg-white rounded-lg"
@@ -73,7 +73,7 @@ const Profile = () => {
           <div className="flex items-center">
             <div>
               <a href="https://cses.fi/user/135054">
-                <img src="/logos/cses.png" alt="cses" className="w-48 bg-slate-600 rounded-lg" />
+                <img src="Portfolio/logos/cses.png" alt="cses" className="w-48 bg-slate-600 rounded-lg" />
               </a>
             </div>
           </div>
@@ -82,14 +82,14 @@ const Profile = () => {
           <div>
             <div>
               <a href="https://atcoder.jp/users/kaushalyad321"> 
-                <img src="/logos/atcoder.svg" alt="atcoder" className=" w-32 px-4 py-3  bg-white rounded-lg" />
+                <img src="Portfolio/logos/atcoder.svg" alt="atcoder" className=" w-32 px-4 py-3  bg-white rounded-lg" />
               </a>
             </div>
           </div>
         </div>
         <div className=" block col-start-2 bg-white z-20 rounded-full px-4 py-3 ">
           <a href="https://www.hackerrank.com/profile/kaushalyad321">
-            <img src="/logos/hackerrank.svg" alt="Hakerrank" className="w-32 px-4 py-3  bg-white rounded-lg" />
+            <img src="Portfolio/logos/hackerrank.svg" alt="Hakerrank" className="w-32 px-4 py-3  bg-white rounded-lg" />
           </a>
         </div>
       </div>
