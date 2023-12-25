@@ -6,9 +6,7 @@ const WorkContent = (props) => {
       <div className="flex px-6 justify-between pt-3">
         <div className="text-white text-2xl">
           {props.companyName}
-          <inline className="text-slate-300">
-           {props.require}
-          </inline>
+          <inline className="text-slate-300">{props.require}</inline>
         </div>
         <div className="text-white text-xl">{props.time}</div>
       </div>

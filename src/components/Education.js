@@ -12,9 +12,7 @@ const Education = () => {
         <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 mx-56 rounded-lg shadow">
           <WorkContent
             companyName={"Motilal Nehru Institute Of Technology "}
-            content={
-              "Bachelor of Technology"
-            }
+            content={"Bachelor of Technology"}
             time={"2019-2023"}
             from={"Allahabad(UP)"}
           />
@@ -22,9 +20,7 @@ const Education = () => {
         <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 mx-56 rounded-lg shadow mt-10">
           <WorkContent
             companyName={"S.G.S.M.S.M.N.N Janta College Khajedih"}
-            content={
-              "Physics Chemistry Mathematics"
-            }
+            content={"Physics Chemistry Mathematics"}
             time={"2015-2017"}
             from={"Madhubani(Bihar)"}
           />
