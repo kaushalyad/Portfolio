@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.5ec906c9.css",
+    "main.js": "/Portfolio/static/js/main.faf59ab4.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/kaushalbg.jpeg": "/Portfolio/static/media/kaushalbg.c9269af7c1364b529302.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.5ec906c9.css.map": "/Portfolio/static/css/main.5ec906c9.css.map",
+    "main.faf59ab4.js.map": "/Portfolio/static/js/main.faf59ab4.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ec906c9.css",
+    "static/js/main.faf59ab4.js"
+  ]
+}
