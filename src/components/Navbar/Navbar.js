@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import Expertise from "../Expertise";
 import Education from "../Education";
@@ -7,27 +7,88 @@ import Contact from "../Contact";
 import Profile from "../Profile";
 import Home from "../Home";
 const Navbar = () => {
+  const [highLightColor, setHighLightColor] = useState([
+    "#fc0388",
+    "blue",
+    "blue",
+    "blue",
+    "blue",
+    "blue",
+  ]);
+  const highLight = (index) => {
+    const arr = ["blue", "blue", "blue", "blue", "blue", "blue"];
+    arr[index] = "#fc0388";
+    setHighLightColor(arr);
+  };
   return (
     <>
       <nav className=" bg-slate-200 h-20 flex items-center justify-between w-[100%]">
         <div className="flex gap-x-11 items-center ">
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="" className="focus:text-red-400">Home</NavLink>
+            <NavLink
+              to=""
+              onClick={() => {
+                highLight(0);
+              }}
+              style={{ color: highLightColor[0] }}
+            >
+              Home
+            </NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/education" className="focus:text-red-400">Education</NavLink>
+            <NavLink
+              to="/education"
+              onClick={() => {
+                highLight(1);
+              }}
+              style={{ color: highLightColor[1] }}
+            >
+              Education
+            </NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/expertise" className="focus:text-red-400">Expertise</NavLink>
+            <NavLink
+              to="/expertise"
+              onClick={() => {
+                highLight(2);
+              }}
+              style={{ color: highLightColor[2] }}
+            >
+              Expertise
+            </NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/work" className="focus:text-red-400">Work</NavLink>
+            <NavLink
+              to="/work"
+              onClick={() => {
+                highLight(3);
+              }}
+              style={{ color: highLightColor[3] }}
+            >
+              Work
+            </NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/profile" className="focus:text-red-400">Profile</NavLink>
+            <NavLink
+              to="/profile"
+              onClick={() => {
+                highLight(4);
+              }}
+              style={{ color: highLightColor[4] }}
+            >
+              Profile
+            </NavLink>
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
-            <NavLink to="/contact" className="focus:text-red-400">Contact</NavLink>
+            <NavLink
+              to="/contact"
+              on={() => {
+                highLight(5);
+              }}
+              style={{ color: highLightColor[5] }}
+            >
+              Contact
+            </NavLink>
           </div>
         </div>
         <div className="flex items-center">
@@ -43,7 +104,7 @@ const Navbar = () => {
         </div>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/education" element={<Education />} />
