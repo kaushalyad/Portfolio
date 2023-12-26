@@ -8,7 +8,7 @@ const WorkContent = (props) => {
           {props.companyName}
           <span className="text-slate-300 mobile:text-xs">{props.require}</span>
         </div>
-        <div className="text-white text-sm medium:text-[8px] tablet:text-sm mobile:text-xs ">{props.time}</div>
+        <div className="text-white text-sm medium:text-[8px] tablet:text-sm mobile:text-[6px] ">{props.time}</div>
       </div>
       <div className="flex justify-between">
         <div className="mt-2 text-slate-300 text-lg px-6 medium:text-sm tablet:text-xs mobile:text-xs ">{props.content}</div>
