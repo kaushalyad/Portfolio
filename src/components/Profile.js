@@ -5,11 +5,11 @@ const Profile = () => {
    
     <div className=" items-center pt-24 " id="profile">
       <div>
-        <p className="comic text-white text-center text-7xl font-bold">
+        <p className="comic text-white text-center text-7xl font-bold mobile:text-5xl">
           My Coding Profiles
         </p>
       </div>
-      <div className=" w-[70%] my-24 mx-auto grid grid-cols-3 gap-y-24 place-items-center">
+      <div className=" w-[70%] my-24 mx-auto grid grid-cols-3 gap-y-24 place-items-center mobile:grid-cols-2 gap-x-4">
         <div className="bg-white block z-20 rounded-lg px-4 py-3">
           <div className="flex items-center ">
             <div>
@@ -95,7 +95,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className=" block col-start-2 bg-white z-20 rounded-full px-4 py-3 ">
+        <div className=" block col-start-1 bg-white z-20 rounded-full px-4 py-3 ">
           <a href="https://www.hackerrank.com/profile/kaushalyad321">
             <img
               src="/Portfolio/logos/hackerrank.svg"

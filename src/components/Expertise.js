@@ -8,7 +8,7 @@ const Expertise = () => {
           My Project
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-y-24 gap-x-4 place-items-center my-20 mx-16  ">
+      <div className="grid grid-cols-3 gap-y-24 gap-x-4 place-items-center my-20 mx-16 mobile:grid-cols-1">
         <div className=" bg-gray-700 rounded-md pb-20 update">
           <div className="imgParent">
             <img
@@ -121,7 +121,7 @@ const Expertise = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-700 col-start-2 rounded-md pb-20  update">
+        <div className="bg-gray-700 col-start-2 rounded-md pb-20  update mobile:col-start-1">
           <div className="imgParent">
             <img
               src="/Portfolio/images/spotifyPic.png"
