@@ -3,7 +3,8 @@ import WorkContent from "./WorkContent";
 import Require from "./Require";
 const Work = () => {
   return (
-    <>
+    <div div id="work">
+     
       <div className="comic text-white text-center text-7xl font-bold my-11">
         Work Experience
       </div>
@@ -18,7 +19,7 @@ const Work = () => {
           require={<Require />}
         />
       </div>
-    </>
+    </div>
   );
 };
 

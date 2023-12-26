@@ -2,7 +2,7 @@ import React from "react";
 import WorkContent from "./WorkContent";
 const Education = () => {
   return (
-    <div>
+    <div id="education">
       <div>
         <p className="comic text-white text-center text-7xl font-bold">
           My Education

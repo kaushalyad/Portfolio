@@ -1,10 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, Route, Routes } from "react-router-dom";
-import Expertise from "../Expertise";
-import Education from "../Education";
-import Work from "../Work";
-import Contact from "../Contact";
-import Profile from "../Profile";
+import { NavLink} from "react-router-dom";
 import Home from "../Home";
 const Navbar = () => {
   const [highLightColor, setHighLightColor] = useState([
@@ -33,14 +28,15 @@ const Navbar = () => {
     window.sessionStorage.setItem("color", JSON.stringify(arr));
   };
   return (
-    <>
-      <nav className=" bg-slate-200 h-20 flex items-center justify-between w-[100%]">
+    <div id="home">
+      <nav className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center justify-between w-[100%]">
         <div className="flex gap-x-11 items-center ">
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
               to=""
               onClick={() => {
                 highLight(0);
+                document.getElementById("home").scrollIntoView({ behavior: "smooth" });
               }}
               style={{ color: highLightColor[0] }}
             >
@@ -49,9 +45,10 @@ const Navbar = () => {
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
-              to="/education"
+              to="#education"
               onClick={() => {
                 highLight(1);
+                document.getElementById("education").scrollIntoView({ behavior: "smooth" });
               }}
               style={{ color: highLightColor[1] }}
             >
@@ -60,9 +57,10 @@ const Navbar = () => {
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
-              to="/expertise"
+              to="#expertise"
               onClick={() => {
                 highLight(2);
+                document.getElementById("expertise").scrollIntoView({ behavior: "smooth" });
               }}
               style={{ color: highLightColor[2] }}
             >
@@ -71,9 +69,11 @@ const Navbar = () => {
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
-              to="/work"
+              to="#work"
               onClick={() => {
                 highLight(3);
+                document.getElementById("work").scrollIntoView({ behavior: "smooth" });
+
               }}
               style={{ color: highLightColor[3] }}
             >
@@ -82,9 +82,10 @@ const Navbar = () => {
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
-              to="/profile"
+              to="#profile"
               onClick={() => {
                 highLight(4);
+                document.getElementById("profile").scrollIntoView({ behavior: "smooth" });
               }}
               style={{ color: highLightColor[4] }}
             >
@@ -93,9 +94,11 @@ const Navbar = () => {
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
-              to="/contact"
+              to="#contact"
               onClick={() => {
                 highLight(5);
+                document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+
               }}
               style={{ color: highLightColor[5] }}
             >
@@ -115,15 +118,9 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <Routes>
-        <Route path="" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/expertise" element={<Expertise />} />
-        <Route path="/work" element={<Work />} />
-      </Routes>
-    </>
+      <div  className=" bg-black h-40" ></div>
+      <Home />
+    </div>
   );
 };
 

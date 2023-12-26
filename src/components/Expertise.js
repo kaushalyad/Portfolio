@@ -4,7 +4,7 @@ const Expertise = () => {
   return (
     <div>
       <div>
-        <p className="comic text-white text-center text-7xl font-bold">
+        <p className="comic text-white text-center text-7xl font-bold" id="expertise">
           My Project
         </p>
       </div>
@@ -152,7 +152,7 @@ const Expertise = () => {
               </div>{" "}
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <a href="#">
+              <a href="google.com">
                 {" "}
                 <p className="text-white">Check it out</p>
               </a>

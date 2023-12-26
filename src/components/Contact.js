@@ -1,7 +1,7 @@
 import React from "react";
 const Contact = () => {
   return (
-    <div className="text-white text-center mt-10 bg-slate-700">
+    <div className="text-white text-center mt-10 bg-slate-700" id="contact">
       <div>
         <p className="comic text-5xl text-center font-bold ">
           Available for select opportunities

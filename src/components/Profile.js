@@ -2,7 +2,7 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div className=" items-center mt-20 ">
+    <div className=" items-center mt-20 " id="profile">
       <div>
         <p className="comic text-white text-center text-7xl font-bold">
           My Coding Profiles
