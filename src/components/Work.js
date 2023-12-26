@@ -8,7 +8,7 @@ const Work = () => {
       <div className="comic text-white text-center text-7xl font-bold my-11 mobile:text-5xl smallMobile:text-5xl">
         Work Experience
       </div>
-      <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 mx-56 rounded-lg shadow tablet:mx-16 largeTablet:mx-11 mobile:mx-5 smallMobile:mx-5">
+      <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 mx-56 rounded-lg shadow tablet:mx-16 largeTablet:mx-11 mobile:mx-5 smallMobile:mx-5 medium:mx-16 laptop:mx-24">
         <WorkContent
           companyName={"Successive Technology"}
           content={

@@ -8,8 +8,8 @@ import Contact from "./Contact";
 const Home = () => {
   return (
     <div>
-      <div className="h-20 bg-gradient-to-r from-violet-500 to-fuchsia-500 z-10 my-auto">
-        <p className="text-white text-center my-auto font-serif text-7xl font-bold tablet:text-5xl pt-3 largeTablet:pt-1 mobile:text-4xl mobile:pt-4 smallMobile:text-4xl pt-4">
+      <div className="h-28 bg-gradient-to-r from-violet-500 to-fuchsia-500 z-10 ">
+        <p className="text-white text-center my-auto font-serif text-7xl font-bold tablet:text-5xl pt-3 largeTablet:pb-5 mobile:text-4xl mobile:pt-4 smallMobile:text-4xl pt-4">
           Kaushal Kumar Yadav
         </p>
       </div>

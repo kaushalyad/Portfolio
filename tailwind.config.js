@@ -9,6 +9,7 @@ module.exports = {
         "largeTablet":{'min':'901px', 'max': '1014px'},
         "mobile":{'min':'530px','max':'744px'},
         "smallMobile":{'min' : '0px', 'max': '529px'},
+        "laptop":{'min': '1201px', 'max': '1800px'},
       },
     },
   },

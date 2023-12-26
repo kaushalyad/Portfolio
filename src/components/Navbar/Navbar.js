@@ -29,9 +29,9 @@ const Navbar = () => {
   };
   return (
     <div id="home">
-      <div className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center justify-between w-[100%] mobile:justify-center smallMobile:justify-center">
-        <div className="flex justify-center items-center">
-        <div className="flex gap-x-11 items-center tablet:gap-x-5 largeTablet:gap-x-4  mobile:hidden smallMobile:hidden ">
+      <div className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5">
+        <div className="flex justify-center items-center w-screen largeTablet:justify-between largeTablet:gap-x-11 laptop:justify-between">
+        <div className="flex gap-x-11 items-center tablet:gap-x-5 largeTablet:gap-x-4  mobile:hidden smallMobile:hidden  ">
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg ">
             <NavLink
               to=""
@@ -108,9 +108,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="flex items-center mobile:justify-center">
-          <div className="mr-40 flex items-center mobile:mr-0 mobile:justify-center">
+          <div className="mr-40 flex items-center mobile:mr-0 mobile:justify-center largeTablet:justify-between largeTablet:w-[100vw]">
             <NavLink to="/">
-              <div className=" content font-serif text-violet-700 mobile:w-96 mobile:flex justify-center text-lg">
+              <div className=" content font-serif text-violet-700 mobile:w-96 mobile:flex justify-between text-lg">
                 <div className="line mt-5 tablet:mt-5 ml-6 mobile:ml-0">
                   <div className="pop-outin italic tablet:text-[9px]">Full Stack Developer</div>
                 </div>
