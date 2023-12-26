@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div id="home">
       <div className="h-20 bg-gradient-to-r from-violet-500 to-fuchsia-500 z-10 my-auto">
-        <p className="text-white text-center my-auto font-serif text-7xl font-bold">
+        <p className="text-white text-center my-auto font-serif text-7xl font-bold tablet:text-5xl pt-3 largeTablet:pt-1">
           Kaushal Kumar Yadav
         </p>
       </div>

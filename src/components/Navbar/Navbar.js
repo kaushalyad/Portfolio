@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div id="home">
       <nav className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center justify-between w-[100%]">
-        <div className="flex gap-x-11 items-center ">
+        <div className="flex gap-x-11 items-center tablet:gap-x-5 largeTablet:gap-x-4 ">
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
               to=""
@@ -110,8 +110,8 @@ const Navbar = () => {
           <div className="mr-40 flex items-center">
             <NavLink to="/">
               <div className=" content font-serif text-violet-700">
-                <div className="line mt-5">
-                  <div className="pop-outin italic">Full Stack Developer</div>
+                <div className="line mt-5 tablet:mt-9 ml-6">
+                  <div className="pop-outin italic tablet:text-[9px]">Full Stack Developer</div>
                 </div>
               </div>
             </NavLink>
