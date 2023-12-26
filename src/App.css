@@ -1,4 +1,7 @@
 /* clear background */
+#root{
+  width:fit-content;
+}
 html {
   --scroll-behavior: smooth!important;
   scroll-behavior: smooth!important;

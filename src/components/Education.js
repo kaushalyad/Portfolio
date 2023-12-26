@@ -4,12 +4,12 @@ const Education = () => {
   return (
     <div id="education" className="pt-24">
       <div>
-        <p className="comic text-white text-center text-7xl font-bold mobile:text-5xl">
+        <p className="comic text-white text-center text-7xl font-bold mobile:text-5xl smallMobile:text-5xl">
           My Education
         </p>
       </div>
       <div className="my-20">
-        <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 tablet:mx-16 rounded-lg shadow largeTablet:mx-16 medium:mx-16 mobile:mx-5">
+        <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 tablet:mx-16 rounded-lg shadow largeTablet:mx-16 medium:mx-16 mobile:mx-5 smallMobile:mx-5">
           <WorkContent
             companyName={"Motilal Nehru Institute Of Technology "}
             content={"Bachelor of Technology"}
@@ -17,7 +17,7 @@ const Education = () => {
             from={"Allahabad(UP)"}
           />
         </div>
-        <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 tablet:mx-16 rounded-lg shadow mt-10 largeTablet:mx-16 medium:mx-16 mobile:mx-5">
+        <div className="h-32 bg-gradient-to-r from-purple-500 to-pink-500 tablet:mx-16 rounded-lg shadow mt-10 largeTablet:mx-16 medium:mx-16 mobile:mx-5 smallMobile:mx-5">
           <WorkContent
             companyName={"S.G.S.M.S.M.N.N Janta College Khajedih"}
             content={"Physics Chemistry Mathematics"}

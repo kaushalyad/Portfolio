@@ -4,11 +4,11 @@ const Expertise = () => {
   return (
     <div id="expertise">
       <div className="pt-24">
-        <p className="comic text-white text-center text-7xl font-bold" >
+        <p className="comic text-white text-center text-7xl font-bold smallMobile:text-5xl" >
           My Project
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-y-24 gap-x-4 place-items-center my-20 mx-16 mobile:grid-cols-1">
+      <div className="grid grid-cols-3 gap-y-24 gap-x-4 place-items-center my-20 mx-16 mobile:grid-cols-1 smallMobile:grid-cols-1">
         <div className=" bg-gray-700 rounded-md pb-20 update">
           <div className="imgParent">
             <img
@@ -121,7 +121,7 @@ const Expertise = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-700 col-start-2 rounded-md pb-20  update mobile:col-start-1">
+        <div className="bg-gray-700 col-start-2 rounded-md pb-20  update mobile:col-start-1 smallMobile:col-start-1">
           <div className="imgParent">
             <img
               src="/Portfolio/images/spotifyPic.png"

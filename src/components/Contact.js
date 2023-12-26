@@ -1,22 +1,22 @@
 import React from "react";
 const Contact = () => {
   return (
-    <div className="text-white text-center mt-10 bg-slate-700" id="contact">
+    <div className="text-white text-center mt-10 bg-slate-700 smallMobile:px-3" id="contact">
       <div>
-        <p className="comic text-5xl text-center font-bold ">
+        <p className="comic text-5xl text-center font-bold  smallMobile:text-4xl">
           Available for select opportunities
         </p>
       </div>
       <div className="mt-5 ">
-        <p className="text-xl text-center font-bold">
+        <p className="text-xl text-center font-bold smallMobile:text-lg">
           Have an exciting project you need help with? Send me an
         </p>
-        <p className="text-xl text-center font-bold">
+        <p className="text-xl text-center font-bold smallMobile:text-lg">
           email or contact me via instant message!
         </p>
       </div>
       <div className="mt-3">
-        <div className="text-3xl font-bold">
+        <div className="text-3xl font-bold smallMobile:text-2xl">
           <a
             href="mailto:kaushalsoftwareengineer@gmail.com?subject = Feedback&body = Message"
             className="hover:text-slate-300"
