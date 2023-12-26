@@ -4,14 +4,14 @@ const WorkContent = (props) => {
   return (
     <>
       <div className="flex px-6 justify-between pt-3">
-        <div className="text-white text-2xl">
+        <div className="text-white text-2xl medium:text-lg">
           {props.companyName}
           <inline className="text-slate-300">{props.require}</inline>
         </div>
-        <div className="text-white text-sm">{props.time}</div>
+        <div className="text-white text-sm medium:text-[8px] ">{props.time}</div>
       </div>
       <div className="flex justify-between">
-        <div className="mt-2 text-slate-300 text-lg px-6 ">{props.content}</div>
+        <div className="mt-2 text-slate-300 text-lg px-6 medium:text-sm ">{props.content}</div>
         <div>
           <p className="text-slate-300 px-6 mt-2">~{props.from}</p>
         </div>
