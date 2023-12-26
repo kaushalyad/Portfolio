@@ -2,7 +2,8 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div className=" items-center mt-20 " id="profile">
+   
+    <div className=" items-center pt-24 " id="profile">
       <div>
         <p className="comic text-white text-center text-7xl font-bold">
           My Coding Profiles
@@ -105,6 +106,7 @@ const Profile = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

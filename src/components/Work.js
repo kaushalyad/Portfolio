@@ -3,7 +3,7 @@ import WorkContent from "./WorkContent";
 import Require from "./Require";
 const Work = () => {
   return (
-    <div div id="work">
+    <div div id="work" className="pt-24">
      
       <div className="comic text-white text-center text-7xl font-bold my-11">
         Work Experience

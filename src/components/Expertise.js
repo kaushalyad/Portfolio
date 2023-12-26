@@ -2,14 +2,14 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div>
-      <div>
-        <p className="comic text-white text-center text-7xl font-bold" id="expertise">
+    <div id="expertise">
+      <div className="pt-24">
+        <p className="comic text-white text-center text-7xl font-bold" >
           My Project
         </p>
       </div>
       <div className="grid grid-cols-3 gap-y-24 gap-x-4 place-items-center my-20 mx-16  ">
-        <div className=" bg-gray-700 rounded-md pb-20 mt-7 update">
+        <div className=" bg-gray-700 rounded-md pb-20 update">
           <div className="imgParent">
             <img
               src="/Portfolio/images/weatherPic.png"
