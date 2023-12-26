@@ -2,6 +2,9 @@
 #root{
   width:fit-content;
 }
+.fil{
+  width:fit-content;
+}
 html {
   --scroll-behavior: smooth!important;
   scroll-behavior: smooth!important;

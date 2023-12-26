@@ -29,7 +29,7 @@ const Navbar = () => {
   };
   return (
     <div id="home">
-      <div className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5">
+      <div className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5 smallMobile:w-full">
         <div className="flex justify-center items-center w-screen largeTablet:justify-between largeTablet:gap-x-11 laptop:justify-between">
         <div className="flex gap-x-11 items-center tablet:gap-x-5 largeTablet:gap-x-4  mobile:hidden smallMobile:hidden  ">
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg ">
