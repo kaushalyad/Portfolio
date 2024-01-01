@@ -80,6 +80,7 @@ const Navbar = () => {
             >
               Work
             </NavLink>
+            
           </div>
           <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg">
             <NavLink
