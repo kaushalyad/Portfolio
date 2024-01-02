@@ -2,7 +2,6 @@ import React from "react";
 
 const Profile = () => {
   return (
-   
     <div className=" items-center pt-24 " id="profile">
       <div>
         <p className="comic text-white text-center text-7xl font-bold mobile:text-5xl smallMobile:text-5xl">
@@ -94,7 +93,7 @@ const Profile = () => {
               </a>
             </div>
           </div>
-        </div> 
+        </div>
         <div className=" block col-start-1 bg-white z-20 rounded-full px-4 py-3 laptop:col-start-2 largeTablet:col-start-2 medium:col-start-2 tablet:col-start-2">
           <a href="https://www.hackerrank.com/profile/kaushalyad321">
             <img
@@ -106,7 +105,6 @@ const Profile = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 

@@ -4,7 +4,7 @@ const Expertise = () => {
   return (
     <div id="expertise">
       <div className="pt-24">
-        <p className="comic text-white text-center text-7xl font-bold smallMobile:text-5xl" >
+        <p className="comic text-white text-center text-7xl font-bold smallMobile:text-5xl">
           My Project
         </p>
       </div>
