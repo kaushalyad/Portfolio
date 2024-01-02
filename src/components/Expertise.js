@@ -41,7 +41,7 @@ const Expertise = () => {
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="https://github.com/kaushalyad/weather_using_api">
-                <p className="text-white">Check it out</p>
+                <p className="text-white font-mono">Check it out</p>
               </a>
             </div>
           </div>
@@ -116,7 +116,7 @@ const Expertise = () => {
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="https://kaushalyad.github.io/Portfolio/">
-                <p className="text-white">Check it out</p>
+                <p className="text-white font-mono">Check it out</p>
               </a>
             </div>
           </div>
@@ -154,7 +154,7 @@ const Expertise = () => {
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="google.com">
                 {" "}
-                <p className="text-white">Check it out</p>
+                <p className="text-white font-mono">Check it out</p>
               </a>
             </div>
           </div>
