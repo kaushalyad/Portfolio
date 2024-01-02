@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Home from "../Home";
 const Navbar = () => {
+  const [mode, setMode] = useState("dark");
+  console.log(mode);
   const [highLightColor, setHighLightColor] = useState([
     "#f56942",
     "blue",
@@ -29,7 +31,7 @@ const Navbar = () => {
   };
   return (
     <div id="home">
-      <div className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5 smallMobile:w-full">
+      <div className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5 smallMobile:w-full mobile:w-full">
         <div className="flex justify-center items-center w-screen largeTablet:justify-between largeTablet:gap-x-11 laptop:justify-between">
           <div className="flex gap-x-11 items-center tablet:gap-x-5 largeTablet:gap-x-4  mobile:hidden smallMobile:hidden  ">
             <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg ">
@@ -132,7 +134,33 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-black h-40"></div>
+      <div className="sticky top-0 bg-black h-40 text-center pt-[6.6rem] flex justify-between px-10 opacity-55">
+        <div>
+          <a
+            href="https://drive.google.com/file/d/1jE6Q9NJM44KPuft1XwHBhZlBEYiJTXju/view?usp=sharing"
+            className="text-white bold p-4 border rounded-md text-xl bg-gray-700 hover:bg-slate-500 hover:text-gray-100 font-serif "
+          >
+            Resume
+          </a>
+        </div>
+        <div>
+          <div>
+            <input
+              type="checkbox"
+              className="checkbox"
+              id="checkbox"
+              onClick={() => {
+                mode === "dark" ? setMode("clear") : setMode("dark");
+              }}
+            />
+            <label for="checkbox" className="checkbox-label">
+              <i className="fas fa-moon"></i>
+              <i className="fas fa-sun"></i>
+              <span className="ball"></span>
+            </label>
+          </div>
+        </div>
+      </div>
       <Home />
     </div>
   );
