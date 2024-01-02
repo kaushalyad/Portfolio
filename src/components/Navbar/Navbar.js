@@ -161,6 +161,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      </div>
+      <div className=" bg-black h-40"></div>
       <Home />
     </div>
   );
