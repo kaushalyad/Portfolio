@@ -1,7 +1,10 @@
 import React from "react";
 const Contact = () => {
   return (
-    <div className="text-white text-center mt-10 bg-slate-700 smallMobile:px-3" id="contact">
+    <div
+      className="text-white text-center mt-10 bg-slate-700 smallMobile:px-3"
+      id="contact"
+    >
       <div>
         <p className="comic text-5xl text-center font-bold  smallMobile:text-4xl">
           Available for select opportunities

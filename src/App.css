@@ -1,14 +1,17 @@
 /* clear background */
-#root{
-  width:fit-content;
+#root {
+  width: fit-content;
 }
-.fil{
-  width:fit-content;
+
+.fil {
+  width: fit-content;
 }
+
 html {
-  --scroll-behavior: smooth!important;
-  scroll-behavior: smooth!important;
-  }
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
+
 .pop-outin {
   text-align: center;
   padding: 16px;
@@ -169,26 +172,27 @@ img {
 .imgIncrement:hover {
   transform: scale(1.2, 1.2);
 }
-.update{
+
+.update {
   overflow: hidden;
 }
 
-body:has(.incrementOne:hover) .slightlyOne{
+body:has(.incrementOne:hover) .slightlyOne {
   transition: transform 300ms;
   transform: translate3d(0, 2px, 0);
 }
 
-body:has(.incrementTwo:hover) .slightlyTwo{
+body:has(.incrementTwo:hover) .slightlyTwo {
   transition: transform 300ms;
   transform: translate3d(0, 2px, 0);
 }
 
-body:has(.incrementThree:hover) .slightlyThree{
+body:has(.incrementThree:hover) .slightlyThree {
   transition: transform 300ms;
   transform: translate3d(0, 2px, 0);
 }
 
-body:has(.incrementFour:hover) .slightlyFour{
+body:has(.incrementFour:hover) .slightlyFour {
   transition: transform 300ms;
   transform: translate3d(0, 2px, 0);
 }
