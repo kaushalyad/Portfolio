@@ -20,6 +20,7 @@ const Navbar = () => {
       } catch (error) {
         setHighLightColor(["#f56942", "blue", "blue", "blue", "blue", "blue"]);
       }
+      
     }
   }, []);
 
