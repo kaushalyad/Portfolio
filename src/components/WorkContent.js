@@ -27,5 +27,4 @@ const WorkContent = (props) => {
     </>
   );
 };
-
 export default WorkContent;
