@@ -197,7 +197,7 @@ body:has(.incrementFour:hover) .slightlyFour {
   transform: translate3d(0, 2px, 0);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); */
 
 * {box-sizing: border-box;}
 
