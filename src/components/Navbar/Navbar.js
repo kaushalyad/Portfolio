@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, createContext } from "react";
 import { NavLink } from "react-router-dom";
 import Home from "../Home";
+
+export const context = createContext();
 const Navbar = () => {
   const [mode, setMode] = useState("dark");
   console.log(mode);
@@ -20,7 +22,6 @@ const Navbar = () => {
       } catch (error) {
         setHighLightColor(["#f56942", "blue", "blue", "blue", "blue", "blue"]);
       }
-      
     }
   }, []);
 
@@ -31,8 +32,19 @@ const Navbar = () => {
     window.sessionStorage.setItem("color", JSON.stringify(arr));
   };
   return (
-    <div id="home">
-      <div className=" fixed top-0 z-50 bg-slate-200 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5 smallMobile:w-full mobile:w-full">
+    <div
+      id="home"
+      className={`" image-blurred-edge " ${
+        mode === "dark"
+          ? "bg-neutral-950 shadow-first bg-[url('../public/images/kaushalbg.jpeg')]"
+          : "bg-[#fb7185] shadow-second  bg-[url('../public/images/kaushalbgtwook.jpeg')]"
+      }`}
+    >
+      <div
+        className={`" fixed top-0 z-50 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5 smallMobile:w-full mobile:w-full  " ${
+          mode === "dark" ? "bg-slate-200" : "bg-amber-100"
+        }`}
+      >
         <div className="flex justify-center items-center w-screen largeTablet:justify-between largeTablet:gap-x-11 laptop:justify-between">
           <div className="flex gap-x-11 items-center tablet:gap-x-5 largeTablet:gap-x-4  mobile:hidden smallMobile:hidden  ">
             <div className="cursor-pointer py-1 px-2 text-blue-600 hover:underline font-semibold text-lg ">
@@ -135,11 +147,15 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="sticky top-0 bg-black h-40 text-center pt-[6.6rem] flex justify-between px-10 opacity-55">
+      <div className="sticky top-0  h-40 text-center pt-[6.6rem] flex justify-between px-10 opacity-55">
         <div>
           <a
             href="https://drive.google.com/file/d/1jE6Q9NJM44KPuft1XwHBhZlBEYiJTXju/view?usp=sharing"
-            className="text-white bold p-4 border rounded-md text-xl bg-gray-700 hover:bg-slate-500 hover:text-gray-100 font-serif "
+            className={`" text-white bold p-4 border rounded-md text-xl " ${
+              mode === "dark"
+                ? "bg-emerald-400 hover:bg-emerald-300"
+                : "bg-violet-400 hover:bg-red-300"
+            }`}
           >
             Resume
           </a>
@@ -154,7 +170,12 @@ const Navbar = () => {
                 mode === "dark" ? setMode("clear") : setMode("dark");
               }}
             />
-            <label for="checkbox" className="checkbox-label">
+            <label
+              for="checkbox"
+              className={`" checkbox-label "  ${
+                mode === "dark" ? "bg-emerald-400" : "bg-violet-300"
+              }`}
+            >
               <i className="fas fa-moon"></i>
               <i className="fas fa-sun"></i>
               <span className="ball"></span>
@@ -162,7 +183,9 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <Home />
+      <context.Provider value={mode}>
+        <Home />
+      </context.Provider>
     </div>
   );
 };

@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import WordFlick from "./WordFlick";
 import Work from "./Work";
 import Profile from "./Profile";
 import Expertise from "./Expertise";
 import Education from "./Education";
 import Contact from "./Contact";
+import { context } from "./Navbar/Navbar";
 const Home = () => {
+  const mode =useContext(context);
   return (
     <div>
       <div className="h-28 bg-gradient-to-r from-violet-500 to-fuchsia-500 z-10 ">

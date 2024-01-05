@@ -11,6 +11,10 @@ module.exports = {
         "smallMobile":{'min' : '0px', 'max': '529px'},
         "laptop":{'min': '1201px', 'max': '1800px'},
       },
+      boxShadow: {
+        "first":'100px 90px 80px 120px rgb(0, 0, 14) inset',
+        "second":' 100px 90px 80px 120px #fb7185 inset'
+      }
     },
   },
   plugins: [],

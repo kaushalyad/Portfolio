@@ -93,12 +93,8 @@ html {
 }
 
 .image-blurred-edge {
-  background-image: url('../public/images/kaushalbg.jpeg');
-  background-color: black;
   background-repeat: no-repeat;
   background-position: top;
-  /* you need to match the shadow color to your background or image border for the desired effect*/
-  box-shadow: 100px 90px 80px 120px rgb(0, 0, 14) inset;
 }
 
 .shadow {
@@ -199,7 +195,9 @@ body:has(.incrementFour:hover) .slightlyFour {
 
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap"); */
 
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -209,9 +207,16 @@ body {
   transition: background 0.2s linear;
 }
 
-body.dark {background-color: #292c35;} /* #9b59b6 */
+body.dark {
+  background-color: #292c35;
+}
 
-body.dark h1, body.dark .support a {color: #fff;}
+/* #9b59b6 */
+
+body.dark h1,
+body.dark .support a {
+  color: #fff;
+}
 
 .checkbox {
   opacity: 0;
@@ -219,7 +224,8 @@ body.dark h1, body.dark .support a {color: #fff;}
 }
 
 .checkbox-label {
-  background-color: #05a910;
+
+ 
   width: 50px;
   height: 26px;
   border-radius: 50px;
@@ -231,9 +237,13 @@ body.dark h1, body.dark .support a {color: #fff;}
   align-items: center;
 }
 
-.fa-moon {color: #deb204;}
+.fa-moon {
+  color: #deb204;
+}
 
-.fa-sun {color: #eb9204;}
+.fa-sun {
+  color: #eb9204;
+}
 
 .checkbox-label .ball {
   background-color: #fff;
@@ -245,7 +255,7 @@ body.dark h1, body.dark .support a {color: #fff;}
   border-radius: 50%;
   transition: transform 0.2s linear;
 }
-.checkbox:checked + .checkbox-label .ball {
+
+.checkbox:checked+.checkbox-label .ball {
   transform: translateX(24px);
 }
-

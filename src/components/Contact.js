@@ -1,8 +1,15 @@
 import React from "react";
+import { useContext } from "react";
+import { context } from "./Navbar/Navbar";
 const Contact = () => {
+  const mode = useContext(context);
   return (
     <div
-      className="text-white text-center mt-10 bg-slate-700 smallMobile:px-3"
+      className={` "text-white text-center mt-10 smallMobile:px-3 " ${
+        mode === "dark"
+          ? "bg-slate-700 text-white"
+          : "bg-orange-200 text-slate-700"
+      } `}
       id="contact"
     >
       <div>

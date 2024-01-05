@@ -4,7 +4,6 @@ import Require from "./Require";
 const Work = () => {
   return (
     <div div id="work" className="pt-24">
-     
       <div className="comic text-white text-center text-7xl font-bold my-11 mobile:text-5xl smallMobile:text-5xl">
         Work Experience
       </div>
