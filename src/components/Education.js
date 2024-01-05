@@ -1,10 +1,17 @@
 import React from "react";
 import WorkContent from "./WorkContent";
+import { useContext } from "react";
+import { context } from "./Navbar/Navbar";
 const Education = () => {
+  const mode = useContext(context);
   return (
     <div id="education" className="pt-24">
       <div>
-        <p className="comic text-white text-center text-7xl font-bold mobile:text-5xl smallMobile:text-5xl">
+        <p
+          className={`" comic text-center text-7xl font-bold mobile:text-5xl smallMobile:text-5xl "  ${
+            mode === "dark" ? "text-white" : "text-black"
+          }`}
+        >
           My Education
         </p>
       </div>

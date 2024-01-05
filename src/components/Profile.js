@@ -1,10 +1,12 @@
 import React from "react";
-
+import { useContext } from "react";
+import { context } from "./Navbar/Navbar";
 const Profile = () => {
+  const mode=useContext(context);
   return (
     <div className=" items-center pt-24 " id="profile">
       <div>
-        <p className="comic text-white text-center text-7xl font-bold mobile:text-5xl smallMobile:text-5xl">
+        <p className={`" comic  text-center text-7xl font-bold mobile:text-5xl smallMobile:text-5xl " ${mode==='dark'?"text-white":"text-black"}`}>
           My Coding Profiles
         </p>
       </div>
