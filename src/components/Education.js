@@ -30,7 +30,6 @@ const Education = () => {
             content={"Physics Chemistry Mathematics"}
             time={"2015-2017"}
             from={"Madhubani(Bihar)"}
-            
           />
         </div>
       </div>
