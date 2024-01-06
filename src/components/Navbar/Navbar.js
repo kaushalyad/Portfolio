@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div
       id="home"
-      className={`" image-blurred-edge mobile: " ${
+      className={`" image-blurred-edge smallMobile:w-full " ${
         mode === "dark"
           ? "bg-neutral-950 shadow-first bg-[url('../public/images/kaushalbg.jpeg')]"
           : "bg-[#fb7185] shadow-second  bg-[url('../public/images/kaushalbgtwook.jpeg')]"
