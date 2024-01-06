@@ -15,7 +15,11 @@ const Expertise = () => {
         </p>
       </div>
       <div className="grid grid-cols-3 gap-y-24 gap-x-4 place-items-center my-20 mx-16 mobile:grid-cols-1 smallMobile:grid-cols-1">
-        <div className=" bg-gray-700 rounded-md pb-20 update">
+        <div
+          className={`" rounded-md pb-16 update " ${
+            mode === "dark" ? "bg-slate-700" : "bg-gray-400"
+          }`}
+        >
           <div className="imgParent">
             <img
               src="/Portfolio/images/weatherPic.png"
@@ -25,14 +29,22 @@ const Expertise = () => {
           </div>
           <div className="mt-8 slightly slightlyOne">
             <div className="my-3">
-              <p className="font-bold text-2xl px-5 text-white comic">
+              <p
+                className={` " font-bold text-2xl px-5 comic " ${
+                  mode === "dark" ? "text-white" : "text-slate-950"
+                } `}
+              >
                 Weather Web Application
               </p>
             </div>
             <div>
               <div className="flex">
                 <div>
-                  <p className="px-5 text-white comic text-xl">
+                  <p
+                    className={` " px-5  comic text-xl "  ${
+                      mode === "dark" ? "text-white" : "text-slate-950"
+                    } `}
+                  >
                     Web Development
                   </p>
                 </div>
@@ -47,12 +59,22 @@ const Expertise = () => {
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="https://github.com/kaushalyad/weather_using_api">
-                <p className="text-white">Check it out</p>
+                <p
+                  className={`${
+                    mode === "dark" ? " text-white " : " text-slate-950 "
+                  } `}
+                >
+                  Check it out
+                </p>
               </a>
             </div>
           </div>
         </div>
-        <div className="bg-gray-700 pt-7 rounded-md pb-20 update">
+        <div
+          className={`" rounded-md pb-16 update pt-7 " ${
+            mode === "dark" ? "bg-slate-700" : "bg-gray-400"
+          }`}
+        >
           <div className="imgParent">
             <img
               src="/Portfolio/images/newsPic.png"
@@ -62,14 +84,22 @@ const Expertise = () => {
           </div>
           <div className="mt-8 slightly slightlyTwo">
             <div className="my-3">
-              <p className="font-bold text-2xl px-5 text-white comic">
+              <p
+                className={` " font-bold text-2xl px-5 comic " ${
+                  mode === "dark" ? "text-white" : "text-slate-950"
+                } `}
+              >
                 News Bulletin Web Application
               </p>
             </div>
             <div>
               <div className="flex">
                 <div>
-                  <p className="px-5 text-white comic text-xl">
+                  <p
+                    className={` " px-5  comic text-xl "  ${
+                      mode === "dark" ? "text-white" : "text-slate-950"
+                    } `}
+                  >
                     Web Development
                   </p>
                 </div>
@@ -85,12 +115,22 @@ const Expertise = () => {
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="https://github.com/kaushalyad/news_using_api">
                 {" "}
-                <p className="text-white font-mono">Check it out</p>
+                <p
+                  className={`${
+                    mode === "dark" ? " text-white " : " text-slate-950 "
+                  } `}
+                >
+                  Check it out
+                </p>
               </a>
             </div>
           </div>
         </div>
-        <div className="bg-gray-700 rounded-md mt-7 pb-20 update">
+        <div
+          className={`" rounded-md pb-16 update " ${
+            mode === "dark" ? "bg-slate-700" : "bg-gray-400"
+          }`}
+        >
           <div className="imgParent">
             <img
               src="/Portfolio/images/kaushal.png"
@@ -100,14 +140,22 @@ const Expertise = () => {
           </div>
           <div className="mt-8 slightly slightlyThree">
             <div className="my-3">
-              <p className="font-bold text-3xl px-5 text-white comic">
+              <p
+                className={` " font-bold text-2xl px-5 comic " ${
+                  mode === "dark" ? "text-white" : "text-slate-950"
+                } `}
+              >
                 Personal Portfolio
               </p>
             </div>
             <div>
               <div className="flex">
                 <div>
-                  <p className="px-5 text-white comic text-xl">
+                  <p
+                    className={` " px-5  comic text-xl "  ${
+                      mode === "dark" ? "text-white" : "text-slate-950"
+                    } `}
+                  >
                     Web Development
                   </p>
                 </div>
@@ -122,12 +170,22 @@ const Expertise = () => {
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="https://kaushalyad.github.io/Portfolio/">
-                <p className="text-white">Check it out</p>
+                <p
+                  className={`${
+                    mode === "dark" ? " text-white " : " text-slate-950 "
+                  } `}
+                >
+                  Check it out
+                </p>
               </a>
             </div>
           </div>
         </div>
-        <div className="bg-gray-700 col-start-2 rounded-md pb-20  update mobile:col-start-1 smallMobile:col-start-1">
+        <div
+          className={`" col-start-2 rounded-md pb-16  update mobile:col-start-1 smallMobile:col-start-1 " ${
+            mode === "dark" ? "bg-slate-700" : "bg-gray-400"
+          }`}
+        >
           <div className="imgParent">
             <img
               src="/Portfolio/images/spotifyPic.png"
@@ -137,14 +195,22 @@ const Expertise = () => {
           </div>
           <div className="mt-8 slightly slightlyFour">
             <div className="my-3">
-              <p className="font-bold text-3xl px-5 text-white comic">
+              <p
+                className={` " font-bold text-2xl px-5  comic  " ${
+                  mode === "dark" ? "text-white" : "text-slate-950"
+                } `}
+              >
                 Spotify Clone
               </p>
             </div>
             <div>
               <div className="flex">
                 <div>
-                  <p className="px-5 text-white comic text-xl">
+                  <p
+                    className={` " px-5  comic text-xl "  ${
+                      mode === "dark" ? "text-white" : "text-slate-950"
+                    } `}
+                  >
                     Web Development
                   </p>
                 </div>
@@ -160,7 +226,13 @@ const Expertise = () => {
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="google.com">
                 {" "}
-                <p className="text-white">Check it out</p>
+                <p
+                  className={`${
+                    mode === "dark" ? " text-white " : " text-slate-950 "
+                  } `}
+                >
+                  Check it out
+                </p>
               </a>
             </div>
           </div>

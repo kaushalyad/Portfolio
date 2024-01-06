@@ -29,7 +29,7 @@ const Contact = () => {
         <div className="text-3xl font-bold smallMobile:text-2xl">
           <a
             href="mailto:kaushalsoftwareengineer@gmail.com?subject = Feedback&body = Message"
-            className="hover:text-slate-300"
+            className="hover:text-slate-500"
           >
             kaushalsoftwareengineer@gmail.com
           </a>
@@ -61,7 +61,7 @@ const Contact = () => {
         <div className=" text-lg">
           <a
             href="https://www.instagram.com/kaushakrlyadav/"
-            className=" hover:text-slate-400"
+            className=" hover:text-slate-500"
           >
             Instagram
           </a>

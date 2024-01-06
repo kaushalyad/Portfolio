@@ -232,15 +232,15 @@ body.dark .support a {
 }
 
 .fa-moon {
-  color: #deb204;
+  color: #e9eee7;
 }
 
 .fa-sun {
-  color: #eb9204;
+  color: #f5f9f4;
 }
 
 .checkbox-label .ball {
-  background-color: #fff;
+  background-color: #f60303;
   width: 22px;
   height: 22px;
   position: absolute;

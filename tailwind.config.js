@@ -12,8 +12,8 @@ module.exports = {
         "laptop":{'min': '1201px', 'max': '1800px'},
       },
       boxShadow: {
-        "first":'100px 90px 80px 120px rgb(0, 0, 14) inset',
-        "second":' 100px 90px 80px 120px #fb7185 inset'
+        "first":'10px 320px 320px 100px rgb(0, 0, 14) inset',
+        "second":' 10px 320px 320px 100px #fb7185 inset',
       }
     },
   },
