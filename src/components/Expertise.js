@@ -221,7 +221,7 @@ const Expertise = () => {
                     className="w-5"
                   ></img>
                 </div>
-              </div>{" "}
+              </div>
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
               <a href="https://kaushalyad.github.io/task-management-app/">
