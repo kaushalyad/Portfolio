@@ -40,6 +40,7 @@ const Navbar = () => {
           : "bg-[#fb7185] shadow-second  bg-[url('../public/images/kaushalbgtwook.jpeg')]"
       }`}
     >
+      
       <div
         className={`" fixed top-0 z-50 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5 smallMobile:w-full mobile:w-full  " ${
           mode === "dark" ? "bg-slate-200" : "bg-amber-100"

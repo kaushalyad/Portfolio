@@ -188,7 +188,7 @@ const Expertise = () => {
         >
           <div className="imgParent">
             <img
-              src="/Portfolio/images/spotifyPic.png"
+              src="/Portfolio/images/task-management-app-main.png"
               alt="project-4"
               className="imgIncrement incrementFour"
             ></img>
@@ -200,7 +200,7 @@ const Expertise = () => {
                   mode === "dark" ? "text-white" : "text-slate-950"
                 } `}
               >
-                Spotify Clone
+                Task Management Application
               </p>
             </div>
             <div>
@@ -224,8 +224,7 @@ const Expertise = () => {
               </div>{" "}
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <a href="google.com">
-                {" "}
+              <a href="https://kaushalyad.github.io/task-management-app/">
                 <p
                   className={`${
                     mode === "dark" ? " text-white " : " text-slate-950 "
