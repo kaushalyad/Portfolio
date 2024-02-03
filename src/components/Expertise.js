@@ -34,7 +34,7 @@ const Expertise = () => {
                   mode === "dark" ? "text-white" : "text-slate-950"
                 } `}
               >
-                Weather Web Application
+                Elda Health Web Application
               </p>
             </div>
             <div>
@@ -58,7 +58,7 @@ const Expertise = () => {
               </div>
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <a href="https://github.com/kaushalyad/weather_using_api">
+              <a href="https://kaushalyad.github.io/elda-health-app/">
                 <p
                   className={`${
                     mode === "dark" ? " text-white " : " text-slate-950 "
@@ -89,7 +89,7 @@ const Expertise = () => {
                   mode === "dark" ? "text-white" : "text-slate-950"
                 } `}
               >
-                News Bulletin Web Application
+                Apna News Web Application
               </p>
             </div>
             <div>
@@ -113,7 +113,7 @@ const Expertise = () => {
               </div>
             </div>
             <div className="bg-yellow-600 p-3 cursor-pointer hover:bg-orange-500 mx-4 my-5 rounded-lg">
-              <a href="https://github.com/kaushalyad/news_using_api">
+              <a href="https://kaushalyad.github.io/apna-news-app">
                 {" "}
                 <p
                   className={`${
