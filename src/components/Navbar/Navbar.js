@@ -40,7 +40,6 @@ const Navbar = () => {
           : "bg-[#fb7185] shadow-second  bg-[url('../public/images/kaushalbgtwook.jpeg')]"
       }`}
     >
-      
       <div
         className={`" fixed top-0 z-50 h-20 flex items-center w-screen mobile:justify-center smallMobile:justify-center largeTablet:justify-between laptop:justify-between laptop:px-5 smallMobile:w-full mobile:w-full  " ${
           mode === "dark" ? "bg-slate-200" : "bg-amber-100"
@@ -157,7 +156,7 @@ const Navbar = () => {
       <div className="sticky top-0  h-40 text-center pt-[6.6rem] flex justify-between px-10 opacity-55">
         <div>
           <a
-            href="https://drive.google.com/file/d/1jE6Q9NJM44KPuft1XwHBhZlBEYiJTXju/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lTHl1hRlKNkdBfA-6K-cplEx6f1JfdwR/view?usp=sharing"
             className=" text-red-600 bold p-4 border rounded-md text-xl bg-white "
           >
             Resume
