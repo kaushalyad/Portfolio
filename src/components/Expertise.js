@@ -127,7 +127,7 @@ const Expertise = () => {
           </div>
         </div>
         <div
-          className={`" rounded-md pb-16 update " ${
+          className={`" rounded-md pb-12 update " ${
             mode === "dark" ? "bg-slate-700" : "bg-gray-400"
           }`}
         >
@@ -138,8 +138,8 @@ const Expertise = () => {
               className="imgIncrement incrementThree"
             ></img>
           </div>
-          <div className="mt-8 slightly slightlyThree">
-            <div className="my-3">
+          <div className="mt-3 slightly slightlyThree">
+            <div className="my-2">
               <p
                 className={` " font-bold text-2xl px-5 comic " ${
                   mode === "dark" ? "text-white" : "text-slate-950"

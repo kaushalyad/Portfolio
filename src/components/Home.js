@@ -6,13 +6,16 @@ import Expertise from "./Expertise";
 import Education from "./Education";
 import Contact from "./Contact";
 import { context } from "./Navbar/Navbar";
+import ScrollSpy from "react-ui-scrollspy";
+
 const Home = () => {
   const mode = useContext(context);
   return (
     <div>
+      <ScrollSpy scrollThrottle={100} useBoxMethod={false}>
         <div className="h-28 bg-gradient-to-r from-violet-500 to-fuchsia-500 z-10 smallMobile:w-full ">
           <p
-            className={`=" text-center my-auto font-serif text-7xl font-bold tablet:text-5xl pt-3 largeTablet:pb-5 mobile:text-4xl mobile:pt-4 smallMobile:text-4xl pt-4 " ${
+            className={`=" text-center my-auto font-serif text-7xl font-bold tablet:text-5xl pt-3 largeTablet:pb-5 mobile:text-4xl mobile:pt-4 smallMobile:text-4xl smallMobile:pt-8 " ${
               mode === "dark" ? "text-white" : "text-black"
             }`}
           >
@@ -29,6 +32,7 @@ const Home = () => {
         <Expertise />
         <Education />
         <Contact />
+      </ScrollSpy>
     </div>
   );
 };
